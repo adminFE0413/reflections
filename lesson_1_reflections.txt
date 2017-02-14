@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The difference shows where are the changes 
+    and most often are where the bug is. However, 
+    need to check if the difference are due to 
+    read coding requirement or spelling mistake.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I will be able to review the changes I have made and most importantly why these changes were made in the first place.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Version auto saved may have little or no changes 
+between the versions and you end up with too many 
+versions. On the other hand, manual saving or commit 
+under git allows you to save changes based on some 
+logical reasoning / break.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In programming, it most likely involved multiple
+    files and inter related. Changes in one file can affect the other
+    so version control system like Git is more suitable.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    use git log to review what are the changes made at different version. Use git diff to compare differences e.g. what are added / deleted between versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+    You can always use git checkout to find out which is the last working (or buggy) version. Once identified, you can also use a git diff to compare the bug version and the one before to see where are 
+    the changes. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Practise Git version control on my program coding development
