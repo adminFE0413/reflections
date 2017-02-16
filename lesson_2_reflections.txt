@@ -20,8 +20,12 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	The diagram helps to visualise the changes and how these changes are related to the master / main branch. It also talk about unreacheable commits
+	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	The result is one single branch that incorporate the changes. The graphical oneline rep clearly show at what point they were merged. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
