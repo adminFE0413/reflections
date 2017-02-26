@@ -20,3 +20,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 	It will be very challenging to collaborate especially if not co-located in the same place.
 	Basically share the code sniplets with each other or the files - or add plenty of comments, meet more often to trash out the codes. by not able to discuss and merge / reflect conflict often, can be difficult to merge into the master later.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Making changes directly in master and then push back to Git Hub is convenient but other collaborators will not neccesary know what you have changed. If it is a simple change and everyone knows about it -- no problem. If the changes you are doing need to be communicated and discussed, it is better to pull changes into your local master branch, merge the local master into your branch (different-oil, in the exercise), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
